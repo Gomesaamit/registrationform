@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <h1>Registration Form</h1>
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="fname">First Name :</label></td>
+            <td>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="enter your first name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Name :</label></td>
+            <td>
+              <input
+                type="text"
+                name="lname"
+                id="lname"
+                placeholder="enter your last name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Gender :</label></td>
+            <td>
+              <input
+                type="radio"
+                name="gender"
+                value="male"
+                id="male"
+                checked
+              /><label for="male">Male</label>
+              <input
+                type="radio"
+                name="gender"
+                value="female"
+                id="female"
+              /><label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Phone Number</label></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Email :</label></td>
+            <td><input type="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Password</label></td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td><label for="">DOB</label></td>
+            <td><input type="Date" /></td>
+          </tr>
+          <tr>
+            <td><input type="reset" value="cancel" /></td>
+            <td><input type="submit" value="regiter" id="" /></td>
+          </tr>
+          <tr>
+            <td>Course</td>
+            <td>
+              <select name="course" id="">
+                <option value="">Angular</option>
+                <option value="">Salesforce</option>
+                <option value="">React JS</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
